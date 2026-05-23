@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.thanuja.thanuboard' // ඔයාගේ ඇප් එකේ package name එක මෙතනට දාන්න
+    namespace 'com.thanuja.thanuboard'
     compileSdk 34
 
     defaultConfig {
@@ -12,7 +12,6 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -35,7 +34,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    
-    // ⚠️ අර ඉස්සෙල්ලා error එක ආපු පරණ module(...) කෑල්ල වෙනුවට සාමාන්‍ය විදිහට dependency එක මෙහෙම දාන්න:
-    // implementation 'group:artifact:version' 
 }
